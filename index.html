@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojas Amirín</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lojas Amirín</h1>
+    </header>
+    <main>
+        <section id="add-clothes">
+            <h2>Adicionar Roupa</h2>
+            <form id="add-clothes-form">
+                <label for="clothing-name">Nome da Roupa:</label>
+                <input type="text" id="clothing-name" name="clothing-name"><br><br>
+                <label for="size">Tamanho:</label>
+                <input type="text" id="size" name="size"><br><br>
+                <label for="price">Preço:</label>
+                <input type="number" id="price" name="price"><br><br>
+                <label for="description">Descrição:</label>
+                <textarea id="description" name="description"></textarea><br><br>
+                <label for="image">Imagem:</label>
+                <input type="file" id="image" name="image"><br><br>
+                <input type="submit" value="Adicionar Roupa">
+            </form>
+        </section>
+        <section id="available-clothes">
+            <h3>Roupas Disponíveis:</h3>
+            <ul id="clothes-list"></ul>
+        </section>
+    </main>
+    <footer style="display: flex; justify-content: flex-start; max-width: 100%; margin: 0 auto;">
+        <ul style="display: flex; padding: 60; list-style: none;">
+            <li style="margin-right: -120px;">
+                <a href="https://www.bing.com/ck/a?!&&p=ea9e4ee73a4e822eJmltdHM9MTcxNjU5NTIwMCZpZ3VpZD0wNTM3MjlmZS0wMzRlLTZiNjYtMTAwNC0zYTJiMDI1YTZhYWQmaW5zaWQ9NTE5OQ&ptn=3&ver=2&hsh=3&fclid=053729fe-034e-6b66-1004-3a2b025a6aad&psq=watswats+web+entrar&u=a1aHR0cHM6Ly93ZWIud2hhdHNhcHAuY29tLw&ntb=1">
+                    <img src="./call_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="contato" style="width: 60px;">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.bing.com/ck/a?!&&p=2824b958922c9de9JmltdHM9MTcxNjU5NTIwMCZpZ3VpZD0wNTM3MjlmZS0wMzRlLTZiNjYtMTAwNC0zYTJiMDI1YTZhYWQmaW5zaWQ9NTIwMA&ptn=3&ver=2&hsh=3&fclid=053729fe-034e-6b66-1004-3a2b025a6aad&psq=email&u=a1aHR0cHM6Ly9tYWlsLmdvb2dsZS5jb20vbWFpbD9obD1wdC1CUg&ntb=1">
+                    <img src="./mail_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="contato" style="width: 60px;">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

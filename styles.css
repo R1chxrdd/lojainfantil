@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #FCCDCD;
+}
+
+header {
+    background-image: url('./wp11119906-ai-brush-removebg-skk9r8kd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fa4f96;
+    padding: 70px;
+    margin: -20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+    color: rgb(236, 59, 236);
+    font-size: 73px;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: "Lobster", sans-serif;
+    position: relative;
+    right: -87px;
+    top: -16px;
+}
+
+h3 {
+    font-family: "Lobster", sans-serif;
+    color: rgb(236, 59, 236);
+    font-size: 40px;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Lobster", sans-serif;
+    color: rgb(236, 59, 236);
+    font-size: 40px;
+    position: relative;
+    left: 613px;
+    top:-150px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ff006a;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #23527c;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#add-clothes {
+    position: relative;
+    top: 20px;
+    background-color: #f16ddb;
+    padding: 20px;
+    border: 1px solid #f16ddb;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgb(236, 4, 236);
+}
+
+#add-clothes-form {
+    color: aliceblue;
+}
+
+#available-clothes {
+    margin-top: 20px;
+}
+
+#clothes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#clothes-list li {
+    padding: 10px;
+    box-shadow: 0 0 40px rgb(236, 4, 236);
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+}
+
+.clothes-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.clothes-item img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.clothes-info {
+    text-align: center;
+}
+
+.clothes-info h3 {
+    margin-top: 0;
+}
+
+.clothes-info p {
+    margin-bottom: 10px;
+}
+
+footer img {
+    border-radius: 3px;
+}
+
+footer ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#description {
+    resize: none;
+    position: relative;
+    top: 6px;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgb(255, 0, 251);
+}
+
+footer{
+    position: relative;
+    left: 25px;
+    top: -30px;
+}
+
+button {
+    background-color: #ec3b7d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #ff007b;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
